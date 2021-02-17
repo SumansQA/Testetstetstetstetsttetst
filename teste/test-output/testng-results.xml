@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5103" started-at="2020-09-19T13:55:37Z" finished-at="2020-09-19T13:55:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5103" started-at="2020-09-19T13:55:37Z" finished-at="2020-09-19T13:55:42Z">
+      <class name="scripts.TestLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:scripts.TestLogin@662b4c69]" name="setUp" is-config="true" duration-ms="1219" started-at="2020-09-19T19:25:36Z" finished-at="2020-09-19T19:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setBrowser()[pri:0, instance:scripts.TestLogin@662b4c69]" name="setBrowser" is-config="true" duration-ms="4878" started-at="2020-09-19T19:25:37Z" finished-at="2020-09-19T19:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method status="PASS" signature="validLogin()[pri:0, instance:scripts.TestLogin@662b4c69]" name="validLogin" duration-ms="33" started-at="2020-09-19T19:25:42Z" finished-at="2020-09-19T19:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:scripts.TestLogin@662b4c69]" name="result" is-config="true" duration-ms="38" started-at="2020-09-19T19:25:42Z" finished-at="2020-09-19T19:25:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validLogin status=SUCCESS method=TestLogin.validLogin()[pri:0, instance:scripts.TestLogin@662b4c69] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:scripts.TestLogin@662b4c69]" name="closeBrowser" is-config="true" duration-ms="134" started-at="2020-09-19T19:25:42Z" finished-at="2020-09-19T19:25:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="rtef()[pri:0, instance:scripts.TestLogin@662b4c69]" name="rtef" is-config="true" duration-ms="6581" started-at="2020-09-19T19:25:42Z" finished-at="2020-09-19T19:25:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtef -->
+      </class> <!-- scripts.TestLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
